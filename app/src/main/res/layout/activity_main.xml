@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fundo_tela_inicial">
+
+    <Button
+        android:id="@+id/jogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="476dp"
+        android:background="@drawable/fundo_botao"
+        android:text="Jogar"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        />
+
+    <Button
+        android:id="@+id/como_jogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="69dp"
+        android:layout_marginBottom="345dp"
+        android:background="@drawable/fundo_botao"
+        android:text="Como Jogar"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/recordes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="207dp"
+        android:background="@drawable/fundo_botao"
+        android:text="Recordes"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+
+</RelativeLayout>

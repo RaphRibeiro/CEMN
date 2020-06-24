@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="raphaelribeiro.com.runmath">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Expressões Numéricas"
+        android:roundIcon="@mipmap/ic_atalho_inicio_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ComoJogarActivity"></activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RecordesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NivelDoisActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NivelUmActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cartelas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DadoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JogadorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

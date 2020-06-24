@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NivelUmActivity"
+    android:background="@drawable/quadronegro">
+    <!-- PLACAR -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PONTUAÇÃO:"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="45dp" />
+
+    <!-- CAMPO DE RESPOSTA -->
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="700dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/somatorio"
+        android:layout_width="900dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="497dp"
+        android:inputType="text"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24dp" />
+
+    <!-- BOTÃO DA RESPSOTA -->
+
+    <Button
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="76dp"
+        android:layout_marginBottom="396dp"
+        android:background="@drawable/fundo_botao_dois"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+
+    <!-- OPERAÇÕES MATEMÁTICAS -->
+    <!-- + - X e / -->
+
+    <Button
+        android:id="@+id/mais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="306dp"
+        android:layout_marginBottom="241dp"
+        android:background="@drawable/fundo_botao_oval"
+        android:text="+"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/menos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="210dp"
+        android:layout_marginBottom="241dp"
+        android:background="@drawable/fundo_botao_oval"
+        android:text="-"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <!-- ( )  e NÚMEROS  ESCOLHIDOS -->
+
+    <Button
+        android:id="@+id/multiplicacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="108dp"
+        android:layout_marginBottom="241dp"
+        android:background="@drawable/fundo_botao_oval"
+        android:text="X"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/divisao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="241dp"
+        android:background="@drawable/fundo_botao_oval"
+        android:text="/"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/parentese_abre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="310dp"
+        android:layout_marginBottom="143dp"
+        android:background="@drawable/fundo_botao_oval"
+        android:text="("
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/parentese_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="209dp"
+        android:layout_marginBottom="143dp"
+        android:background="@drawable/fundo_botao_oval"
+        android:text=")"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/primeiro_numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="106dp"
+        android:layout_marginBottom="143dp"
+        android:background="@drawable/fundo_botao_oval"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/segundo_numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="143dp"
+        android:background="@drawable/fundo_botao_oval"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/limpar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="68dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/fundo_botao_dois"
+        android:text="Limpar"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+
+</RelativeLayout>

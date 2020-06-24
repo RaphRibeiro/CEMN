@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JogadorActivity"
+    android:background="@drawable/quadronegro">
+
+    <EditText
+        android:id="@+id/nome_jogador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="91dp"
+        android:layout_marginBottom="382dp"
+        android:hint="Digite seu nome"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18pt" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="159dp"
+        android:layout_marginBottom="248dp"
+        android:background="@mipmap/ic_ok_giz_foreground"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+
+</RelativeLayout>

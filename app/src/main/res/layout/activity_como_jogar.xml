@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ComoJogarActivity"
+    android:background="@drawable/comojogar">
+
+    <Button
+        android:id="@+id/como_jogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/fundo_botao_oval"
+        android:text="Jogar"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="635dp" />
+
+</RelativeLayout>

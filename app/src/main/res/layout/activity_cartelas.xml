@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cartelas"
+    android:background="@drawable/quadronegro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="605dp"
+        android:text="Escolha um Número"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/um"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="279dp"
+        android:layout_marginBottom="450dp"
+        android:background="@mipmap/ic_um_foreground"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/dois"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="155dp"
+        android:layout_marginBottom="450dp"
+        android:background="@mipmap/ic_dois_foreground"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/tres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="450dp"
+        android:background="@mipmap/ic_tres_foreground"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/quatro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="279dp"
+        android:layout_marginBottom="300dp"
+        android:background="@mipmap/ic_quatro_foreground"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/cinco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="155dp"
+        android:layout_marginBottom="300dp"
+        android:background="@mipmap/ic_cinco_foreground"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/seis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="300dp"
+        android:background="@mipmap/ic_seis_foreground"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/sete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="279dp"
+        android:layout_marginBottom="170dp"
+        android:background="@mipmap/ic_sete_foreground"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/oito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="155dp"
+        android:layout_marginBottom="170dp"
+        android:background="@mipmap/ic_oito_foreground"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/nove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="170dp"
+        android:background="@mipmap/ic_nove_foreground"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/dez"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="279dp"
+        android:layout_marginBottom="30dp"
+        android:background="@mipmap/ic_dez_foreground"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/onze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="155dp"
+        android:layout_marginBottom="30dp"
+        android:background="@mipmap/ic_onze_foreground"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/doze"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="30dp"
+        android:background="@mipmap/ic_doze_foreground"
+        android:textSize="14dp" />
+
+</RelativeLayout>
